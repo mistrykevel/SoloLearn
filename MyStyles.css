@@ -1,0 +1,334 @@
+h3{
+    color: blue;
+    font-size: 110%;
+    font-family: Courier New;
+    padding:1px;
+    border:1px solid red;
+    cursor:url(https://blog-001.west.edge.storage-yahoo.jp/res/blog-85-7f/eriminii/folder/901412/04/44474604/img_0),auto;
+}
+
+h2{
+    padding:1px;
+    border-style:solid ;
+    border-width:5px ;
+    border-color:blue ;
+    /* can also be coloured with hex and RGB */
+    cursor:url(https://blog-001.west.edge.storage-yahoo.jp/res/blog-85-7f/eriminii/folder/901412/04/44474604/img_0),auto;
+}
+
+#intro {
+   color: white;
+   background-color: gray;
+   font-size:100% ;
+}
+
+.first{
+    background-color: red;
+}
+/*comment*/
+
+
+.o{
+  vertical-align:-10px;  
+}
+
+.oo{
+  vertical-align:sub;
+  font-size:medium ;
+}
+
+.ooo{
+    vertical-align:super;
+    font-size:small;
+}
+
+.serif {
+   font-family: "Times New Roman", Times, serif;
+   font-size:small ;
+   font-style:oblique ;
+   text-align:right ;
+   text-decoration:line-through;
+   text-transform:capitalize;
+   word-spacing:10px;
+}
+.sansserif {
+   font-family: Helvetica, Arial, sans-serif;
+   font-size:medium ;
+   font-weight:lighter ;
+   text-align:center ;
+   text-decoration:underline;
+   text-transform:uppercase;
+}
+.monospace {
+   font-family: "Courier New", Courier, monospace;
+   font-size:large ;
+   font-style:normal ;
+   text-decoration:overline;
+   text-transform:lowercase;
+   letter-spacing:5px;
+}
+.cursive {
+   font-family: Florence, cursive;
+   font-size:x-large ;
+   font-weight:bold ;
+   color: pink;
+   /*RGB and hex can also be used*/
+   text-shadow: rgba(0,0,255,1) -1px -2px 0.5em; 
+   letter-spacing:-2px;
+}
+.fantasy {
+   font-family: Blippo, fantasy;
+   font-style:italic ;
+   font-weight:900 ;
+   font-variant:small-caps ;
+   text-decoration:blink;
+   text-indent:50px ;
+   text-shadow:5px 2px 4px grey;
+   white-space:nowrap;
+   /*5px – the X-coordinate
+2px – the Y-coordinate 
+4px – the blur radius
+grey – the color of the shadow*/
+}
+/* muliple font types are used for a fallback
+em: a measurement for font-size
+em= px/16
+*/
+
+.top {
+   vertical-align: top;
+}
+.middle {
+   vertical-align: middle;
+}
+.bottom {
+   vertical-align: bottom;
+}
+
+.of {border-style: none;}
+.oof {border-style: dotted;}
+.ooof {border-style: dashed;}
+.oooof {border-style: double;}
+.ooooof {border-style: groove;}
+.oooooof {border-style: ridge;}
+.ooooooof {border-style: inset;}
+.oooooooof {border-style: outset;}
+.ooooooooof {border-style: hidden;}
+
+.hi{
+    border:1px solid green;
+    width:90px;
+    height:90px;
+    float:left;
+    overflow:scroll;
+}
+
+.whee{
+    padding: 30px;
+    background-image: url("https://vignette.wikia.nocookie.net/vsbattles/images/2/20/Annoying_Dog.gif/revision/latest?cb=20151208061831");
+    color: white; 
+    
+}
+
+body{
+ background-image:url("https://pm1.narvii.com/6205/7e3ec05d87e2a4fda2f103da0625eb08e356b3ec_128.jpg") ;
+ background-repeat:no-repeat ;
+ background-attachment: fixed ;
+}
+
+.list{
+   list-style-type:lower-alpha ; 
+}
+
+.list2{
+    list-style-type:circle ;
+}
+
+.list3{
+    list-style-type:square ;
+}
+
+.list4{
+    list-style-image:url("https://s.yimg.com/ny/api/res/1.2/2On7qNPqCx3KsViCjkW08g--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/digital_trends_973/2a5e57a7a10a54f09a12e3319b0b9bad") ;
+   list-style-position:inside ; 
+}
+
+.table {
+   border-collapse: separate;
+   border-spacing: 20px 40px;
+}
+
+caption {
+   caption-side: top;
+}
+
+.table2{
+    border-collapse: separate;
+   empty-cells: hide;
+    
+}
+
+
+a:link{
+    color:#00f00f;
+}
+
+a:visited{
+    color:#00f00f;
+}
+
+a:hover{
+    color:#fff000;
+    text-decoration:none;
+    /* a:link - defines the style for normal unvisited links
+    a:visited - defines the style for visited links
+    a:active - a link becomes active once you click on it
+    a:hover - a link is hovered when the mouse is over it 
+    - a:hover MUST come after a:link and a:visited
+    - a:active MUST come after a:hover
+    border:none - removes border from images with links
+    outline:none - removes the dotted border on clicked lines in IE*/
+}
+
+.para{
+    display:block ;
+    
+}
+
+.parag{
+    display:inline ;
+    
+}
+
+.hidden{
+    visibility:hidden;
+    
+    
+}
+
+/*CSS3*/
+
+body{
+    cursor:url(http://www.nightwishonline.com/uploads/emoticons/default_yucky.gif),auto;;
+}
+
+a{
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAllBMVEX///9DNBCOHwr/4ij/4Cb5+PZzYDLf29Hb18vt6uSlmHpiTBf/5Svm49r/3iXzvh3llhL72SeXiWb2ySF7aDxlUB31wx35zyH71SOpnoHxuRvqphbhkRFvTAmsfRFxUgukagznnhTvtBnUqh2vhBTLhBDtrRiUXwvIgA6jaAuXag25dA2ujRfWsh/AiRKndhDdrxyefxVJhqJIAAAA6UlEQVQYlXWQ6W6DMBCEARtCgPjAHMaGkjiJ06S5+v4v112jKFLVzo+19VlezUwU/as0H5qybIY8fbN1MV9vSu0Pc7F+sVX2rSVjUip+yVYL27R7SSoQkT2/t5uwr74urCJU9uZR49581jGqCrPzUw6wgGsSJTiTCPkAsLnJGBmJ8VDu2AAslcR3Qggeyol2gZQEUcp050eE2VMzigQYeLLhe3FQmjEglDHN3W5bBEtGYSCIpLmxY7CU1h9G9cFkbKw4B/MQ8+54B+LOiq8lJhZysd55b3fj6VUIVjdtj0J8nqd3dX+X/Fs/cXMRYzHTSFwAAAAASUVORK5CYII=),auto;
+}
+
+img{
+    cursor:url(https://66.media.tumblr.com/ca2c5305e45c34fcc2f5a47bb96fa227/tumblr_inline_pdixw2xAPo1siyl8l_75sq.gif),auto;
+}
+
+table{
+    cursor:url(https://www.pedattikis.gr/wrdp/wp-content/uploads/2018/04/geo.png),auto;
+}
+
+h1{
+    cursor:url(https://blog-001.west.edge.storage-yahoo.jp/res/blog-85-7f/eriminii/folder/901412/04/44474604/img_0),auto;
+}
+
+
+h4{
+    cursor:url(https://blog-001.west.edge.storage-yahoo.jp/res/blog-85-7f/eriminii/folder/901412/04/44474604/img_0),auto;
+}
+
+h5{
+    cursor:url(https://blog-001.west.edge.storage-yahoo.jp/res/blog-85-7f/eriminii/folder/901412/04/44474604/img_0),auto;
+}
+
+h6{
+    cursor:url(https://blog-001.west.edge.storage-yahoo.jp/res/blog-85-7f/eriminii/folder/901412/04/44474604/img_0),auto;
+}
+
+P{
+    cursor:url(https://blog-001.west.edge.storage-yahoo.jp/res/blog-85-7f/eriminii/folder/901412/04/44474604/img_0),auto;
+}
+
+li{
+    cursor:url(https://blog-001.west.edge.storage-yahoo.jp/res/blog-85-7f/eriminii/folder/901412/04/44474604/img_0),auto;
+}
+
+ol{
+    cursor:url(https://blog-001.west.edge.storage-yahoo.jp/res/blog-85-7f/eriminii/folder/901412/04/44474604/img_0),auto;
+}
+
+.hii{
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    width:15px;
+}
+
+.hiii{
+    width: 200px;
+   height: 200px;
+   border-radius: 100px;
+   background-color: green;
+   color: white;
+}
+
+.hiiii{
+    width: 300px;
+   height: 100px;
+   background-color: #9ACD32;
+   box-shadow: 10px 10px #888888;
+}
+
+/*::first-line - the first line of the text in a selector
+::first-letter - the first letter of the text in a selector
+::selection - selects the portion of an element that is selected by a user
+::before - inserts some content before an element
+::after - inserts some content after an element*/
+
+p::selection{
+    background:#000;
+    color:#fff;
+}
+
+h1::selection{
+    background:#000;
+    color:#fff;
+}
+
+h2::selection{
+    background:#000;
+    color:#fff;
+}
+
+h3::selection{
+    background:#000;
+    color:#fff;
+}
+
+h4::selection{
+    background:#000;
+    color:#fff;
+}
+
+h5::selection{
+    background:#000;
+    color:#fff;
+}
+
+h6::selection{
+    background:#000;
+    color:#fff;
+}
+
+img::selection{
+    background:#000;
+    color:#fff;
+}
+a::selection{
+    background:#000;
+    color:#fff;
+}
+table::selection{
+    background:#000;
+    color:#fff;
+}
+form::selection{
+    background:#000;
+    color:#fff;
+}
