@@ -332,3 +332,47 @@ form::selection{
     background:#000;
     color:#fff;
 }
+
+.grad{
+       float: left;
+   width: 300px; 
+   height: 100px;
+   margin: 4px;
+   background:linear-gradient(DeepSkyBlue 20%, Black, orange);
+}
+
+.rad{
+      height: 150px;
+   width: 200px;
+   color: #FFF;
+   background:radial-gradient(circle, green 20%, yellow, blue);
+}
+
+/* transition-property - specifies the property to be transitioned
+transition-duration - specifies the duration over which transitions should occur
+transition-timing-function - specifies how the pace of the transition changes over its duration
+transition-delay - specifies a delay (in seconds) for the transition effect */
+
+.potato{
+   width: 50px;
+   height: 50px;
+   background: #32CD32;
+   transition: width 0.5s;
+}
+
+.potato:hover{
+    width:300px
+}
+
+/*ease - the animation starts slowly, then accelerates quickly.
+ease-in - starts slowly, then accelerates, and stops abruptly.
+ease-out - starts quickly, but decelerates to a stop.
+ease-in-out - similar to ease, but with more subtle acceleration and deceleration.
+linear - constant speed throughout the animation; often best for color or opacity changes.*/
+
+.otato{
+       width: 50px;
+   height: 50px;
+   background: #00f00f;
+   transition:rotate(-45deg);
+}
